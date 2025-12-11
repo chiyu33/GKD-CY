@@ -38,6 +38,33 @@ export default defineGkdApp({
       ],
     },
     {
+      key: 3,
+      name: '关闭抖音推荐',
+      desc: '关闭主页面底部弹出的抖音推荐',
+      actionMaximum: 1,
+      matchTime: 5000,
+      rules: [
+        {
+          matches: ['[vid="gom"]'],
+          fastQuery: true,
+          activityIds: ['com.luna.biz.main.main.MainActivity'],
+        },
+      ],
+    },
+    {
+      key: 1,
+      name: '领取vip关闭',
+      desc: '关闭领取vip弹窗,避免误触',
+      actionMaximum: 1,
+      matchTime: 5000,
+      rules: [
+        {
+          matches: ['[vid="fvl"]'],
+          fastQuery: true,
+        },
+      ],
+    },
+    {
       enable: false,
       key: 7,
       name: '全屏广告-看广告视频拿VIP',
