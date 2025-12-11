@@ -38,8 +38,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
-      name: '关闭推荐',
+      key: 6,
+      name: '局部广告-关闭推荐',
       desc: '关闭主页面底部弹出的推荐',
       actionMaximum: 1,
 
@@ -55,7 +55,7 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      name: '领取vip关闭',
+      name: '全屏广告-领取vip关闭',
       desc: '关闭领取vip弹窗,避免误触',
       actionMaximum: 1,
       matchTime: 5000,
