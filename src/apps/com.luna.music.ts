@@ -96,5 +96,21 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 1,
+      name: '局部广告-关闭看视频',
+      desc: '关闭主页面底部弹出的看视频',
+      rules: [
+        {
+          fastQuery: true,
+          activityIds: 'com.luna.biz.main.main.MainActivity',
+          matches: '[id="com.luna.music:id/uj"]',
+          position: {
+            left: 'width*0.914',
+            bottom: 'height*0.891',
+          },
+        },
+      ],
+    },
   ],
 });
