@@ -19,8 +19,7 @@ export default defineGkdApp({
         },
         {
           key: 1,
-          matches:
-            '@[name="android.view.View"] < * >4 [text="向上滑动或点击按钮种花"] ',
+          matches: '@* +2 * >3 [text="向上滑动或点击按钮查看"] ',
           snapshotUrls: ['https://i.gkd.li/i/24096161'],
         },
       ],
