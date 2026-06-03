@@ -107,7 +107,7 @@ export default defineGkdApp({
           matches: '[id="com.luna.music:id/uj"]',
           position: {
             left: 'width*0.914',
-            bottom: 'height*0.891',
+            bottom: '786',
           },
         },
       ],
